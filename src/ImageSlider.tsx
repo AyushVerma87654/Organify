@@ -36,7 +36,7 @@ const ImageSlider = () => {
   const swiperRef = useRef<SwiperClass | null>(null);
 
   return (
-    <div className="relative w-screen overflow-hidden min-h-[450px]">
+    <div className="relative overflow-hidden min-h-[450px]">
       <button
         onClick={() => swiperRef.current?.slidePrev()}
         className="absolute top-1/2 left-2 z-20 -translate-y-1/2 rounded-full bg-white bg-opacity-70 p-2 shadow-md hover:bg-opacity-100 transition"

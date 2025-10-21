@@ -26,7 +26,6 @@ const NavBar: FC<NavBarProps> = () => {
 
   return (
     <div>
-      <div></div>
       <div className="py-9 px-13 flex items-center justify-center gap-4">
         <div className="relative group flex items-center gap-3 cursor-pointer font-semibold">
           <div className="flex gap-3 items-center">
